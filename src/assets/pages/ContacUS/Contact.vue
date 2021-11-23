@@ -1,26 +1,17 @@
-<!--<template>
+<template>
   <div>
     <div class="container">
       <div class="mid-contact">
-        <div id="left-contact">
-          <img src="src/assets/image/contact-us.png" alt="" />
-        </div>
+       
         <div id="right-contact">
           <h1>تماس با ما</h1>
           <h5>
-            بچه های پشتیبانی زینومین هر روز هفته، <br />24 ,ساعته پاسخگوی شما
-            هستند! البته تا 9 شب از<br />
-            طریق تلفن و از اون زمان تا 9 صبح فرداش هم از<br />
-            طریق ایمیل میتونید باهاشون ارتباط بگیرید.<br />
-            اگر هم توی شبکه های اجتماعی زینومین <br />پیام بزارید تیم پشتیبانی
-            در اسرع وقت<br />
-            پاسخگوی شما هستند.
+            بچه های پشتیبانی  هر روز هفته، <br />24 ساعته پاسخگوی شما
+            هستند! <br>
+             از طریق ایمیل میتونید باهاشون ارتباط بگیرید.<br />
           </h5>
           <h5>
          
-            <br />
-            <br />zinominir@gmail.com <br /><br />آدرس: کرمان، خیابان کوثر، پارک
-            علم و فناوری
           </h5>
         </div>
       </div>
@@ -28,17 +19,12 @@
     <div class="container">
       <div class="mid-contact">
         <div id="left-contact-img">
-          <h1>آدرس روی نقشه</h1>
-          <img
-            src="src/assets/image/map.png"
-            alt=""
-            style="width: 80%; border-radius: 20px"
-          />
+        
         </div>
         <div id="right-contact-txt">
           <h1>ارسال پیام</h1>
           <br />
-          <form enctype="multipart/form-data" methods="POST" >
+          <form>
             <input
             type="text"
               placeholder="نام کامل خود را وارد کنید"
@@ -64,7 +50,7 @@
             <textarea
              cols="30"
             rows="5"
-              placeholder="متن پیام"
+              placeholder="نظرات شما"
               v-model="text"
               @input="$v.text.$touch()"
               :class="{ invalid: $v.text.$error }"

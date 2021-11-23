@@ -29,6 +29,9 @@
             <li>
               <router-link to="/AboutUs">درباره ما</router-link>
             </li>
+            <li>
+              <router-link to="/ContacUS">تماس با ما</router-link>
+            </li>
        
             
             <div class="col-sm-1" id="account">

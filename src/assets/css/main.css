@@ -250,6 +250,7 @@
     #right-contact-txt>form {
         display: flex;
         flex-direction: column;
+        margin-left: 300px;
     }
 
     #left-contact {
