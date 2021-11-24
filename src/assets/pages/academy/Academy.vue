@@ -1,55 +1,57 @@
-<!--<template>
-  <div>
-    <div class="mid">
-      <div id="left">
-        <img src="/src/assets/image/academy.png" alt="" style="width: 70%" />
-      </div>
-      <div id="right">
-        <h1>آکادمی</h1>
-        <h5>
-          توی این بخش میتونید به مقالات و محتواهای<br/>
-          زینومین دسترسی داشته باشید.اینجا براتون کلی<br/>
-          آموزش در خصوص بازیافت و محافظت از محیط <br/>زیستمون داریم.
-          <br />همچنین اگه علاقه دشته باشین میتونین در این <br />بخش مقالات
-          مربوط به خودتون رو هم که در<br/>
-          زمینه محیط زیست و بازیافت هستند را با دیگران <br/>به اشتراک بزارید.
-        </h5>
-        <div class="search">
-          <input type="text" placeholder="هرچی که میخوای رو جستجو کن" v-model="keyword"/>
-          <button class="btn" @click.prevent="SearchAcademy()">جستجو</button>
-        </div> 
-      </div>
-    </div>
-    <academy-header></academy-header>
 
-    <router-view></router-view>
+<template>
+<div class="container">
 
-    <br /><br /><br /><br /><br />
-  </div>
+   <div class="flex-container">
+                    <div id="item-acb">
+                      <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/mouse.png" alt="back"></router-link>
+                        <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                          <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+                    
+
+                    <div id="item-acb">
+                        <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/gaming.png" alt="back"></router-link>
+                       
+                          <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                      <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+  
+                    <div id="item-acb">
+                      <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/RAM.png" alt="back"> </router-link>
+                        <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                           <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+                 
+                </div>
+
+</div>
+
 </template>
-<script>
-import AcademyHeader from "./Header-academy";
-import All from "./all";
-import restore from "./restore";
-
-export default {
-  components: {
-    AcademyHeader: AcademyHeader,
-    All: All,
-    restore: restore,
-  },
-  data() {
-    return {
-      keyword: "",
-    };
-  },
-  methods: {
-    SearchAcademy() {
-      const search = {
-        keyword: this.keyword,
-      };
-      this.$store.dispatch("SearchAcademy");
-    },
-  },
-};
-</script>-->

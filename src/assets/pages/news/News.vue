@@ -1,32 +1,56 @@
-<!--<template>
-<div>
-  <div class="container">
-            <div class="mid">
-                <div id="right">
+<template>
+<div class="container">
 
-                    <h1>
-                        اخبار محیط زیستی </h1>
+   <div class="flex-container">
+                    <div id="item-acb">
+                      <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/mouse.png" alt="back"></router-link>
+                        <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                          <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+                    
 
-                    <h5>
-                        توی این بخش شما میتوانید به آخرین اخبار<br> و اطلاعات حوزه محیط زیستی دسترسی<br> داشته باشید. تیم زینومین در نظر دارد با<br> پوشش دادن تمامی اخبار و اطلاعات محیط<br> زیستی شما را در این زمینه بی نیاز سازد.
-                    </h5>
-
+                    <div id="item-acb">
+                        <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/gaming.png" alt="back"></router-link>
+                       
+                          <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                      <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+  
+                    <div id="item-acb">
+                      <router-link to="/singleProuduct">
+                        <img src="/src/assets/image/RAM.png" alt="back"> </router-link>
+                        <h5>
+                          <p>&nbsp;&nbsp;1000000t</p>
+                        قیمت 
+                          </h5>
+                        <div class="p">
+                            <p>
+                                خلاصه نکاتی که باید  به خواننده گفته شود
+                            </p>
+                        </div>
+                           <a href="#" class="main">افزودن به سبد خرید</a>
+                    </div>
+                 
                 </div>
-                <div id="left-news">
-                  <img src="/src/assets/image/akhbar.png" alt="news" />
-                </div>
-            </div>
-        </div>
-<news-Header></news-Header>
-<br><br><br><br><br><br>
-        </div>
+
+</div>
 
 </template>
-<script>
-import NewsHeader from "./news-header";
-export default {
-components:{
-NewsHeader:NewsHeader,
-}
-}
-</script>-->
