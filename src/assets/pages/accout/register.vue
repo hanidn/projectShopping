@@ -21,12 +21,12 @@
 
                     <input type="password" placeholder="رمز عبور خود را وارد کنید" v-model="password">
                     <br><br>
-                    <button type="submit">ثبت نام
+                    <button type="submit"><router-link to="/reg">
+                        ثبت نام 
+                        </router-link>
                     </button>
                     <br>
-                    <button>
-                          <router-link to="/login">ورود</router-link>                  
-                       </button>
+                   
                 </form>
             </div>
         </div>

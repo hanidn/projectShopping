@@ -15,12 +15,14 @@
                     <br>
                     <a href="#">رمز عبور را فراموش کرده ام</a>
                     <br><br>
-                    <button><router-link to="/register">ثبت نام</router-link>
-                    </button>
+                    <!-- <button><router-link to="/register">ثبت نام</router-link>
+                    </button> -->
                     <br>
-                    <button type="submit">
-                           ورود                     
+                  <button type="submit"><router-link to="/log">
+                           ورود 
+                               </router-link>                    
                        </button>
+                   
                 </form>
             </div>
             <div class="right-reg">

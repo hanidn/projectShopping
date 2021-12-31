@@ -71,7 +71,7 @@
         margin: 20px 400px;
     }
 
-    .search>button {
+    .search>a>button {
         height: 40px;
         border-radius: 20px;
         width: 150px;
@@ -84,7 +84,7 @@
         margin-top: -4px;
     }
 
-    .search>button:hover {
+    .search>a>button:hover {
         opacity: 0.8;
     }
 
@@ -341,7 +341,8 @@
         background-image: repeating-linear-gradient(to left , #c7d5d5, #c7d5d5, #e6ecec);
         border-radius: 20px;
         box-shadow: 2px 2px 4px rgb(179, 178, 178);
-        width:100%;
+        width:120px;
+        height: auto;
     }
 
     #item-acb>p {
@@ -360,6 +361,7 @@
         justify-content: flex-end;
         flex-direction: row-reverse;
         padding: 10px;
+        white-space: wrap;
     }
     
  

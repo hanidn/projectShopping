@@ -62,7 +62,10 @@
               پیام خود را وارد کنید
             </p>
 
-            <button :disabled="$v.$invalid" @click.prevent="SubmitMessage()" type="submit">ارسال</button>
+            <button :disabled="$v.$invalid" @click.prevent="SubmitMessage()" type="submit"><router-link to="/cntct" style="text-decoration:none;color:white">
+              ارسال
+              </router-link>
+              </button>
           </form>
 
           <br /><br /><br /><br />

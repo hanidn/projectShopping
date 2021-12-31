@@ -5,7 +5,7 @@
         <div class="header1">
            <div class="search">
                     <input type="text" placeholder="هرچی که میخوای رو جستجو کن">
-                    <button class="btn">جستجو</button>
+                    <router-link to="/search"><button class="btn">جستجو</button></router-link>
                     
                 </div>
                 <router-link to="/cart"><img src="/src/assets/image/cart.png"></router-link>
@@ -31,6 +31,9 @@
             </li>
             <li>
               <router-link to="/ContacUS">تماس با ما</router-link>
+            </li>
+             <li>
+              <router-link to="/movie">اسمبل تایم</router-link>
             </li>
        
             

@@ -10,21 +10,21 @@
       </tr>
       <tr>
         <td>شماره یک</td>
-        <td>25000</td>
+        <td>15000000</td>
         <td>1</td>
-        <td>25000</td>
+        <td>15000000</td>
         </tr>
             <tr>
                 <td>شماره دو</td>
-                <td>35000</td>
+                <td>1000000</td>
                 <td>1</td>
-                <td>35000</td>
+                <td>1000000</td>
               </tr>
               <tr>
                 <td>شماره سه</td>
-                <td>35000</td>
+                <td>320000</td>
                 <td>1</td>
-                <td>35000</td>
+                <td>320000</td>
               </tr>
     </table>
     <table class="container">
@@ -32,13 +32,13 @@
             <th>مجموع</th>
             </tr>
             <tr>
-                <td>95000</td>
+                <td>16320000تومان</td>
             </tr>
        </table>
           
             <br>
             <div class="container">
-            <a href="#" class="buy">پرداخت</a>
+      <router-link to="/pardakht" class="buy"> پرداخت</router-link>
             </div>
   
   
